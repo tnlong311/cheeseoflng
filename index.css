@@ -12,23 +12,17 @@ body {
   margin-left: auto;
 }
 
-/** HEADER **/
+/* HEADER */
 .navbar {
   background-color: #C27BA0;
   border-color: #e7e7e7;
   color: #777;
+  height: 150px;
 }
 .navbar > .default-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .navbar-container > a {
@@ -36,13 +30,12 @@ body {
 }
 #logo-img {
   background: url('../chesse-images/logo.jpg') no-repeat;
-  background-size: 150px;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px 15px 10px 15px;
 }
-
-/** DARFT **/
+/* END HEADER */
 
 /* FOOTER */
 .footer {
@@ -54,16 +47,9 @@ body {
   color: white;
 }
 .footer-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 35px;
 }
@@ -79,42 +65,3 @@ body {
   line-height: 1.8;
 }
 /* END FOOTER */
-
-/* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
-}
-
-#menu-tile, #specials-tile, #map-tile {
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
-/* END HOME PAGE */
