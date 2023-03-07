@@ -8,11 +8,11 @@ This website is to introduce our bussiness - Cheese of LN. It contains the home 
 ## How to run the web
 Browser-sync to automatically load the web:
 - Install:
-'''
+```
 npm install -g browser-sync
-'''
+```
 - On your terminal:
-'''
+```
 browser-sync start --server --files "css/*.css"
-'''
+```
 https://browsersync.io/
