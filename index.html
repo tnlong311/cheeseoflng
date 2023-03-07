@@ -7,51 +7,68 @@
     <title>Cheese of LN</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,300;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
   </head>
 <body>
   <header>
     <nav class="navbar">
       <div class="default-container">
-          <a href="index.html">Home</a>
+          <a href="index.html" class="navbar-item">Home</a>
 
-          <a href="about-us.html">About us</a>
+          <a href="about-us.html" class="navbar-item">About us</a>
 
           <a href="index.html">
             <div id="logo-img"></div>
           </a>
 
-          <a href="products.html">Products</a>
+          <a href="products.html" class="navbar-item">Products</a>
 
-          <a href="contact.html">Contact</a>
+          <a href="contact.html" class="navbar-item">Contact</a>
         </div>
       </div>
   </header>
 
   <div class="body-container">
     <div id="banner-home-page" class="jumbotron">
-      <div> Hello </div>
+      <div class="jumbotron-title-container">
+        <div class="jumbotron-title"> Cheese Of LN </div>
+        <div class="jumbotron-body">
+          Cheese Of LN is a Norway business located at Vietnam and implement the mission that deploy Jarlsberg cheese, 
+          and many wonderful dishes combined with this nutty taste cheese. With a purpose that “Even faraway, everyone 
+          can taste from Norway”, we are striving to bring the best quality of Jarlberg cheese in detail and Norway 
+          cusine in general into beloved Vietnam.
+        </div>
+      </div>
     </div>
 
     <div class="dish-tiles-header">
-      Delicious dishes with Cheese
+      Delicious dishes with our Cheese
     </div>
 
     <div class="dish-tiles">
       <div class="dish-tile">
-        <div id="dish-image-1" class="dish-image"></div>
-        <div class="dish-descrip">Name 1</div>
+        <div class="tile-container">
+          <div id="dish-image-1" class="dish-image"></div>
+          <div class="dish-descrip">Norway Cheese Pizza</div>
+        </div>
+        
       </div>
 
       <div class="dish-tile">
-        <div id="dish-image-2" class="dish-image"></div>
-        <div class="dish-descrip">Name 2</div>
+        <div class="tile-container">
+          <div id="dish-image-2" class="dish-image"></div>
+          <div class="dish-descrip">Salmon Cheese Salad</div>
+        </div>
       </div>
 
       <div class="dish-tile">
-        <div id="dish-image-3" class="dish-image"></div>
-        <div class="dish-descrip">Name 3</div>
+        <div class="tile-container">
+          <div id="dish-image-3" class="dish-image"></div>
+          <div class="dish-descrip">Spicy Cheese Burito</div>
+        </div>
       </div>
     </div>
   </div>
@@ -66,18 +83,14 @@
           Docklands Saigon, Nguyen Thi Thap<br>
           District 7, Ho Chi Minh
         </div>
-        <div id="address">
+
+        <div id="business">
           <span>Business:</span><br>
           <a href="about-us.html">About us</a><br>
           <a href="products.html">Our product</a><br>
         </div>
-
-        <div id="icons">
-          <div>Icon 1</div>
-          <div>Icon 2</div>
-        </div>
       </div>
-      <div class="text-center">&copy; Copyright Cheese of LN 2022</div>
+      <div id="copyright">&copy; Copyright Cheese of LN 2022</div>
     </div>
   </footer>
 </body>

@@ -1,0 +1,35 @@
+.person-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto;
+}
+.person-tile {
+  position: relative;
+  flex: 0 0 25%;
+  margin: auto 40px;
+  padding: 0px 40px;
+}
+.person-image {
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#person-image-1 {
+  background: url('../chesse-images/person1-aboutus-page.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#person-image-2 {
+  background: url('../chesse-images/person2-aboutus-page.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.person-descrip {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #F48924;
+}
