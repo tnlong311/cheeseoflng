@@ -1,0 +1,46 @@
+#banner-product-page {
+  background: url('../chesse-images/banner-product-page.png') no-repeat;
+  background-position: center;
+  background-size: 100% calc(100vh - 150px);
+}
+.product-container {
+  margin-top: 30px;
+  padding: 0 60px 0 60px;
+}
+.product-header {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+.product-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: space-between;
+}
+.product-tile {
+  position: relative;
+  flex: 0 0 40%;
+}
+.product-title-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.product-descrip {
+  text-align: justify;
+}
+#product-table {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}

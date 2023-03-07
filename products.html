@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="products.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
@@ -16,111 +15,95 @@
   <header>
     <nav class="navbar">
       <div class="default-container">
-          <a href="index.html">Home</a>
+          <a href="index.html" class="navbar-item">Home</a>
 
-          <a href="about-us.html">About us</a>
+          <a href="about-us.html" class="navbar-item">About us</a>
 
-          <a href="index.html" class="visible-md visible-lg">
+          <a href="index.html">
             <div id="logo-img"></div>
           </a>
 
-          <a href="products.html">Products</a>
+          <a href="products.html" class="navbar-item">Products</a>
 
-          <a href="contact.html">Contact</a>
+          <a href="contact.html" class="navbar-item">Contact</a>
         </div>
       </div>
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-
-  <div id="main-content" class="container">
-    <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
-    <div class="text-center">
-      Substituting white rice with brown rice or fried rice after 3:00pm will be $1.50 for a pint and $2.50 for a quart.
+  <div class="body-container">
+    <div id="banner-product-page" class="jumbotron">
+      <div class="product-header">
+        Our Products
+      </div>
     </div>
+    
+    <div class="product-tiles">
+      <div class="product-tile">
+        <div class="product-container">
+          <div class="product-title-header">
+            About our products
+          </div>
+    
+          <div class="product-descrip">
+            Our main product is Jarlsberg original cheese comes from Norway. This kind of cheese is famous around the world for its distinctive sweet and nutty taste with the large shape and big round holes. Base on the diversity of customer needs, we also ensure the best quality of cheese in every shapes, even as 10kg wheel or cut to customer needs. Jarlsberg is a friendly kind of cheese, which means that even you but it as a regular for turito or stay healthy with salads, it still be a good choice for us to enjoy! Jarlsberg is naturally lactose-free and suitable for vegetarians.
+          </div>
+        </div>
+    
+        <div class="product-container">
+          <div class="product-title-header">
+            Ingredients and storage
+          </div>
+          
+          <div class="product-descrip">
+            Jarlsberg is a friendly kind of cheese, it made from Paterurised cow’s milk, microbial enzyme (rennet), salt, bacterial culture, 27% fat (fat in dry matter 45%). And because of the sensitivity of the ingredients, Jarlsberg cheese is prefer to store at 0 °C - 4 °C and best sliced when cool.
+          </div>
+        </div>  
+      </div>
+      
+      <div class="product-tile">
+        <div class="product-title-header">
+          Table of nutritions per 100gr
+        </div>
 
-    <section class="row">
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
+        <table id="product-table">
+          <tr>
+            <th>Energy</th>
+            <th>1458 kJ (351 kcal)</th>
+          </tr>
+          <tr>
+            <td>Protein</td>
+            <td>228 g</td>
+          </tr>
+          <tr>
+            <td>Fat - Total</td>
+            <td>311 g</td>
+          </tr>
+          <tr>
+            <td>Fat - Saturated</td>
+            <td>30 g</td>
+          </tr>
+          <tr>
+            <td>Carbohydrate - Total</td>
+            <td>27 g</td>
+          </tr>
+          <tr>
+            <td>Carbohydrate - Sugar</td>
+            <td>150 g</td>
+          </tr>
+          <tr>
+            <td>Sodium</td>
+            <td>24 g</td>
+          </tr>
+          <tr>
+            <td>Calcium</td>
+            <td>23 g</td>
+          </tr>
+        </table>
+        
       </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-        <a href="single-category.html">
-          <div class="category-tile">
-            <img width="200" height="200" src="images/menu/B/B.jpg" alt="Lunch">
-            <span>Lunch</span>
-          </div>
-        </a>
-      </div>
-    </section>
-
-  </div><!-- End of #main-content -->
+    </div>
+    
+  </div>
 
   <footer class="footer">
     <div class="default-container">
@@ -130,20 +113,17 @@
         <div id="address">
           <span>Our address:</span><br>
           Docklands Saigon, Nguyen Thi Thap<br>
-          District 7, Ho Chi Minh
+          District 7, Ho Chi Minh<br>
+          Last updated: 8/3/2023
         </div>
-        <div id="address">
+
+        <div id="business">
           <span>Business:</span><br>
           <a href="about-us.html">About us</a><br>
           <a href="products.html">Our product</a><br>
         </div>
-
-        <div id="icons">
-          <div>Icon 1</div>
-          <div>Icon 2</div>
-        </div>
       </div>
-      <div class="text-center">&copy; Copyright Cheese of LN 2022</div>
+      <div id="copyright">&copy; Copyright Cheese of LN 2022</div>
     </div>
   </footer>
 </body>

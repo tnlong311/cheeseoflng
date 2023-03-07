@@ -1,3 +1,19 @@
+#banner-contact-page {
+  background: url('../chesse-images/banner-contact-page.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% calc(100vh - 150px);
+}
+.contact-header {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
 .person-tiles {
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +48,10 @@
   margin-top: 10px;
   font-weight: 600;
   color: #F48924;
+  margin-top: 20px;
+}
+.person-content {
+  color: black;
+  padding: 0 20px;
+  line-height: 1.5;
 }

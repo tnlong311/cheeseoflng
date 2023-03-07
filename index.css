@@ -17,6 +17,15 @@ body {
   min-height: 600px;
   width: 100%;
 }
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+}
+th, td {
+  padding: 8px 6px 8px 6px;
+}
 /* HEADER */
 .navbar {
   background-color: #F85A40;
