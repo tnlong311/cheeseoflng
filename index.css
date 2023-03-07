@@ -35,7 +35,8 @@ body {
   color: #000000;
 }
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../chesse-images/logo.jpg') no-repeat;
+  background-size: 150px;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
