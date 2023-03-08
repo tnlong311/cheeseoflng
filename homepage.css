@@ -1,5 +1,5 @@
 #banner-home-page {
-  background: url('../chesse-images/banner-home-page.jpg') no-repeat;
+  background: url('chesse-images/banner-home-page.jpg') no-repeat;
   background-size: 100% calc(100vh - 150px); 
 }
 .body-container .jumbotron-title-container {
@@ -46,17 +46,17 @@
   overflow: hidden;
 }
 #dish-image-1 {
-  background: url('../chesse-images/dish1-home-page.jpg') no-repeat;
+  background: url('chesse-images/dish1-home-page.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 #dish-image-2 {
-  background: url('../chesse-images/dish2-home-page.jpg') no-repeat;
+  background: url('chesse-images/dish2-home-page.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 #dish-image-3 {
-  background: url('../chesse-images/dish3-home-page.jpg') no-repeat;
+  background: url('chesse-images/dish3-home-page.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }

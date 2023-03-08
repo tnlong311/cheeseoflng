@@ -1,5 +1,5 @@
 #banner-contact-page {
-  background: url('../chesse-images/banner-contact-page.jpg') no-repeat;
+  background: url('chesse-images/banner-contact-page.jpg') no-repeat;
   background-position: center;
   background-size: 100% calc(100vh - 150px);
 }
@@ -33,12 +33,12 @@
   overflow: hidden;
 }
 #person-image-1 {
-  background: url('../chesse-images/person1-aboutus-page.png') no-repeat;
+  background: url('chesse-images/person1-aboutus-page.png') no-repeat;
   background-position: center;
   background-size: cover;
 }
 #person-image-2 {
-  background: url('../chesse-images/person2-aboutus-page.jpg') no-repeat;
+  background: url('chesse-images/person2-aboutus-page.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }

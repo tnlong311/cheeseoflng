@@ -55,7 +55,7 @@ th, td {
   margin-bottom: 5px;
 }
 #logo-img {
-  background: url('../chesse-images/logo.jpg') no-repeat;
+  background: url('chesse-images/logo.jpg') no-repeat;
   background-size: cover;
   width: 120px;
   height: 120px;

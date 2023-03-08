@@ -1,5 +1,5 @@
 #banner-aboutus-page {
-  background: url('../chesse-images/banner-aboutus-page.jpg') no-repeat;
+  background: url('chesse-images/banner-aboutus-page.jpg') no-repeat;
   background-position: center;
   background-size: 100% calc(100vh - 150px);
 }
