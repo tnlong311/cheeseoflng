@@ -4,7 +4,7 @@
   background-size: 100% calc(100vh - 150px);
 }
 .product-container {
-  margin-top: 30px;
+  margin: 30px auto;
   padding: 0 60px 0 60px;
 }
 .product-header {
@@ -27,7 +27,7 @@
 }
 .product-tile {
   position: relative;
-  flex: 0 0 40%;
+  flex: 0 0 50%;
 }
 .product-title-header {
   font-size: 32px;
@@ -39,8 +39,47 @@
   text-align: justify;
 }
 #product-table {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  margin: auto;
+}
+
+/* Desktop layout - screen width greater than 1024px */
+@media (min-width: 1025px) {
+ 
+}
+
+/* Tablet layout - screen width between 1024px and 641px */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #banner-product-page {
+    background-size: 100% calc(100vh - 120px); 
+  } 
+  .product-tiles {
+    margin: auto 30px;
+  }
+  .product-tile {
+    flex: 0 0 100%;
+  }
+  .product-title-header {
+    font-size: 28px;
+  }
+}
+
+/* Mobile layout - screen width less than 641px */
+@media (max-width: 640px) {
+  #banner-product-page {
+    background: url('chesse-images/banner-product-page-small.png') no-repeat;
+    background-size: 100% calc(100vh - 80px); 
+  }
+  .product-header {
+    font-size: 38px;
+  }
+  .product-tiles {
+    margin: auto 10px;
+  }
+  .product-tile {
+    flex: 0 0 100%;
+  }
+  .product-title-header {
+    font-size: 26px;
+    margin-top: 0px;
+  }
 }

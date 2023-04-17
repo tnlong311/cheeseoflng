@@ -9,9 +9,6 @@ body {
   padding-right: 30px;
   padding-left: 30px;
 }
-.body-container {
-  min-height: calc(100vh - 150px);
-}
 .body-container .jumbotron {
   height: calc(100vh - 150px);
   min-height: 600px;
@@ -54,14 +51,14 @@ th, td {
   border-bottom-style: solid;
   margin-bottom: 5px;
 }
-#logo-img {
+.logo-img {
   background: url('chesse-images/logo.jpg') no-repeat;
   background-size: cover;
   width: 120px;
   height: 120px;
   margin: 10px 15px 10px 15px;
 }
-#logo-img:hover {
+.logo-img:hover {
   opacity: 0.8;
 }
 /* END HEADER */
@@ -69,7 +66,7 @@ th, td {
 /* FOOTER */
 .footer {
   margin-top: 30px;
-  padding-top: 35px;
+  padding-top: 30px;
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
@@ -101,3 +98,63 @@ th, td {
   text-align: center;
 }
 /* END FOOTER */
+
+/* Desktop layout - screen width greater than 1024px */
+@media (min-width: 1025px) {
+  .logo-img {
+    width: 120px;
+    height: 120px;
+    margin: 10px 15px 10px 15px;
+  }
+}
+
+/* Tablet layout - screen width between 1024px and 641px */
+@media (min-width: 641px) and (max-width: 1024px) {
+  body {
+    font-size: 0.85em;
+  }
+  .logo-img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 15px 10px 15px;
+  }
+  .navbar {
+    height: 120px;
+    padding: 0 50px 0 50px;
+  }
+  .body-container .jumbotron {
+    height: calc(100vh - 120px);
+  }
+  .footer-row {
+    margin-bottom: 35px;
+    padding: 0 50px 0 50px;
+  }
+  .footer {
+    margin-top: 0px;
+  }
+}
+
+/* Mobile layout - screen width less than 641px */
+@media (max-width: 640px) {
+  body {
+    font-size: 0.65em;
+  }
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+  .navbar {
+    height: 80px;
+    padding: 0px;
+  }
+  .body-container .jumbotron {
+    height: calc(100vh - 80px);
+  }
+  .footer-row {
+    margin-bottom: 35px;
+    padding: 0px;
+  }
+  .footer {
+    margin-top: 0px;
+  }
+}

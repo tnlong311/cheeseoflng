@@ -55,3 +55,36 @@
   padding: 0 20px;
   line-height: 1.5;
 }
+
+/* Desktop layout - screen width greater than 1024px */
+@media (min-width: 1025px) {
+ 
+}
+
+/* Tablet layout - screen width between 1024px and 641px */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #banner-contact-page {
+    background-size: 100% calc(100vh - 120px); 
+  }
+  .person-image {
+    height: 250px;
+  }
+}
+
+/* Mobile layout - screen width less than 641px */
+@media (max-width: 640px) {
+  #banner-contact-page {
+    background: url('chesse-images/banner-contact-page-small.jpg') no-repeat;
+    background-size: 100% calc(100vh - 80px); 
+  }
+  .person-tiles {
+    margin: 30px auto;
+  }
+  .person-tile {
+    flex: 0 0 50%;
+    margin-top: 30px;
+  }
+  .person-image {
+    height: 300px;
+  }
+}
