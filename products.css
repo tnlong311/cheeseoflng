@@ -1,6 +1,5 @@
 #banner-product-page {
   background: url('chesse-images/banner-product-page.png') no-repeat;
-  background-position: center;
   background-size: 100% calc(100vh - 150px);
 }
 .product-container {

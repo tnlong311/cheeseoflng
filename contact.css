@@ -1,6 +1,5 @@
 #banner-contact-page {
   background: url('chesse-images/banner-contact-page.jpg') no-repeat;
-  background-position: center;
   background-size: 100% calc(100vh - 150px);
 }
 .contact-header {
@@ -34,12 +33,10 @@
 }
 #person-image-1 {
   background: url('chesse-images/person1-aboutus-page.png') no-repeat;
-  background-position: center;
   background-size: cover;
 }
 #person-image-2 {
   background: url('chesse-images/person2-aboutus-page.jpg') no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .person-descrip {
@@ -87,4 +84,74 @@
   .person-image {
     height: 300px;
   }
+}
+
+input, textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+input::placeholder {
+  color: #666;
+}
+button {
+  padding: 10px;
+  border: none;
+  background: #1c87c9; 
+  font-size: 1.1em;
+  color: #fff;
+  border-radius: 8px;
+}
+button:hover {
+  background: #2371a0;
+  cursor: pointer;
+}
+.form-contact {
+  width: 40%;
+  min-width: 400px;
+  margin: 30px auto;
+  padding: 25px 45px;
+  box-shadow: 0 2px 5px #f5f5f5; 
+  background: #f5f5f5; 
+  border-radius: 6px;
+}
+.form-header {
+  margin: 0 0 20px;
+  font-size: 3em;
+  font-weight: 500;
+  color: #1c87c9;
+}
+.item {
+  position: relative;
+  margin: 10px 0 20px 0;
+}
+.item input:hover, .item select:hover, .item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 6px 0 #333;
+  color: #333;
+}
+.item-title {
+  margin-bottom: 10px;
+}
+.item-fullname {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item-fullname input {
+  width: calc(50% - 40px);
+}
+.item-error {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: red;
+}
+.form-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.form-btn {
+  width: 100px;
 }
