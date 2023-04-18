@@ -2,6 +2,17 @@
   background: url('chesse-images/banner-home-page.jpg') no-repeat;
   background-size: 100% calc(100vh - 150px); 
 }
+
+#banner-home-page-1 {
+  background: url('chesse-images/banner1-home-page.jpg') no-repeat;
+  background-size: 100% calc(100vh - 150px); 
+}
+
+#banner-home-page-2 {
+  background: url('chesse-images/banner2-home-page.jpg') no-repeat;
+  background-size: 100% calc(100vh - 150px); 
+}
+
 .body-container .jumbotron-title-container {
   position: absolute;
   top: 40%;
@@ -71,6 +82,36 @@
 .tile-container:hover {
   width: 103%;
   opacity: 0.9;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+.slide {
+  flex: 0 0 100%;
+}
+.slide img {
+  display: block;
+  width: 100%;
+}
+.slider-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.slider-button {
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+.slider-button.active {
+  background-color: black;
+  color: white;
 }
 
 /* Desktop layout - screen width greater than 1024px */
