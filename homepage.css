@@ -13,7 +13,7 @@
   background-size: 100% calc(100vh - 150px); 
 }
 
-.body-container .jumbotron-title-container {
+.jumbotron-title-container {
   position: absolute;
   top: 40%;
   width: 33%;
@@ -90,10 +90,6 @@
   width: 100%;
 }
 .slide {
-  flex: 0 0 100%;
-}
-.slide img {
-  display: block;
   width: 100%;
 }
 .slider-buttons {
@@ -124,7 +120,7 @@
   #banner-home-page {
     background-size: 100% calc(100vh - 120px); 
   }
-  .body-container .jumbotron-title-container {
+  .jumbotron-title-container {
     position: relative;
     top: 35%;
     width: 60%;
@@ -160,7 +156,7 @@
     background: url('chesse-images/banner-home-page-small.jpg') no-repeat;
     background-size: 100% calc(100vh - 80px); 
   }
-  .body-container .jumbotron-title-container {
+  .jumbotron-title-container {
     position: relative;
     top: 35%;
     width: 60%;
