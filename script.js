@@ -73,7 +73,7 @@ function resetContactForm() {
 }
 
 window.addEventListener('load', function() {
-    var sliderContainer = document.querySelector('.slider-container');
+    var sliderContainer = document.querySelector('.body-container');
     var slider = sliderContainer.querySelector('.slider');
     var slides = slider.querySelectorAll('.slide');
     var sliderButtons = sliderContainer.querySelectorAll('.slider-button');
@@ -117,3 +117,26 @@ window.addEventListener('load', function() {
       }
     }
 });
+
+let slideIndex = 0;
+showSlides();
+
+// automatically change slides
+function showSlides() {
+  let i;
+  let sliderContainer = document.querySelector('.body-container');
+  let slider = sliderContainer.querySelector('.slider');
+  let slides = slider.querySelectorAll('.slide');
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {slideIndex = 1}
+
+  slides[slideIndex-1].style.display = "block";
+
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
