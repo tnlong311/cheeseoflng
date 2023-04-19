@@ -74,39 +74,46 @@
       </div>
     </div>
 
-    <form class="default-container form-contact">
+    <form class="default-container form-contact" name="contactForm">
       <div class="form-header">Contact Us</div>
 
       <div class="item">
         <div class="item-title">Name</div>
         <div class="item-fullname">
-          <input class="item-fname" type="text" name="first-name" placeholder="First name">
-          <input class="item-lname" type="text" name="last-name" placeholder="Last name">
+          <div class="item-container">
+            <input class="item-fname" type="text" name="fname" placeholder="First name">
+            <div class="item-error" id="fname-error"></div>
+          </div>
+          <div class="item-container">
+            <input class="item-lname" type="text" name="lname" placeholder="Last name">
+            <div class="item-error" id="lname-error"></div>
+          </div>
         </div>
       </div>
 
       <div class="item">
         <div class="item-title">Age</div>
-        <input class="item-age" type="number" name="age" placeholder="Age">
-        <div class="item-error">Please enter a valid number!</div>
+        <input class="item-age" type="text" name="age" placeholder="Age">
+        <div class="item-error" id="age-error"></div>
       </div>
       
       <div class="item">
         <div class="item-title">Mobile number</div>
         <input class="fname" type="text" name="mobile" placeholder="Mobile number">
-        <div class="item-error">Please enter a valid number!</div>
+        <div class="item-error" id="mobile-error"></div>
       </div>
       
       <div class="item">
         <div class="item-title">Address</div>
         <div>
-          <textarea rows="2" placeholder="Address"></textarea>
+          <textarea rows="2" name="address" placeholder="Address"></textarea>
         </div>
+        <div class="item-error" id="address-error"></div>
       </div>
       
       <div class="form-btns">
-        <button id="contact-reset-btn" class="form-btn" type="">Reset</button>
-        <button id="contact-submit-btn" class="form-btn" type="submit">Submit</button>
+        <button id="contact-reset-btn" class="form-btn" type="button" onclick="resetContactForm()">Reset</button>
+        <button id="contact-submit-btn" class="form-btn" type="button" onclick="validateContactForm()">Submit</button>
       </div>
     </form>
 
