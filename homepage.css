@@ -12,10 +12,13 @@
 }
 .jumbotron-title-container {
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: 33%;
-  margin-left: 30px;
+  padding: 10px 20px;
+  margin-left: 4%;
   text-align: center;
+  background: rgba(0, 0, 0, .6);
+  border-radius: 10px; 
 }
 .jumbotron-title {
   color: white;
